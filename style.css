@@ -4,7 +4,8 @@ body {
 
 .gridContainer {
     display: grid;
-    grid-template-columns: 1 1;
+    grid-template-columns: 1fr 1fr;
+    height:500px;
   }
 
 h2 {
@@ -17,7 +18,7 @@ p {
 }
 
 .PersonalInformation {
-    border-style: dotte;
+    border-style: dotted;
 }
 
 .ExperienceInformation {
