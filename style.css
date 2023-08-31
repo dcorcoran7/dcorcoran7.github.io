@@ -12,7 +12,6 @@ body {
 }
 
 h2 {
-    color: gray;
     font-weight: bold;
 }
 
@@ -29,7 +28,8 @@ h2 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
