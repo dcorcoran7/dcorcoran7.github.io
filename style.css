@@ -42,8 +42,7 @@ h2 {
 .linkedIn {
     background-color: rgb(74, 153, 227); 
     color: black; 
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-radius: 5px;
 }
 
 .linkedIn:hover {
@@ -53,8 +52,7 @@ h2 {
 .gitHub {
     background-color: #02a46c; 
     color: black; 
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
 }
 
 .gitHub:hover {
