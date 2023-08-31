@@ -72,7 +72,7 @@ td.courseName {
 }
 
 td.courseNum {
-    width: calc(max-content + 10px);
+    width: 110%;
 }
 
 th {
