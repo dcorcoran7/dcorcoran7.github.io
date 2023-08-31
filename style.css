@@ -43,7 +43,7 @@ h2 {
   
   .linkedIn:hover {
     background-color: #1a5bd4;
-    color: #1a5bd4;
+    color: white;
   }
   
   .gitHub {
@@ -54,7 +54,7 @@ h2 {
   
   .gitHub:hover {
     background-color: #0c5a30;
-    color: #0c5a30;
+    color: white;
   }
 
 .experienceInformation {
