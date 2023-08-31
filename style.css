@@ -6,7 +6,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height:500px;
-  }
+}
 
 h2 {
     color: gray;
@@ -17,13 +17,15 @@ p {
     color: gray;
 }
 
-.PersonalInformation {
+.personalInformation {
     grid-column: 1/2;
+    grid-row: 1/2;
     border-style: dotted;
 }
 
-.ExperienceInformation {
+.experienceInformation {
     grid-column: 2/3;
+    grid-row: 1/2;
     overflow: auto;
     border-style: dotted;
     width:150px;
