@@ -37,30 +37,16 @@ h2 {
     cursor: pointer;
     width: 125px;
     height: 50px;
-    
-}
-
-.linkedIn {
     background-color: #c5cfca; 
     color: black; 
     border-radius: 5px;
 }
 
-.linkedIn:hover {
+.button:hover {
     background-color: maroon;
     color:white !important;
 }
 
-.gitHub {
-    background-color: #c5cfca; 
-    color: black; 
-    border-radius: 5px;
-}
-
-.gitHub:hover {
-    background-color: maroon;
-    color: white !important;
-}
 
 .experienceInformation {
     grid-column: 2/3;
