@@ -26,4 +26,5 @@ p {
     grid-column: 2/3;
     overflow: auto;
     border-style: dotted;
+    width:300px;
 }
