@@ -71,6 +71,10 @@ td.courseName {
     padding: 5px;
 }
 
+td.courseNum {
+    width: calc(max-content + 10px);
+}
+
 th {
     text-align: left;
 }
