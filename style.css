@@ -25,7 +25,8 @@ h2 {
 .experienceInformation {
     grid-column: 2/3;
     grid-row: 1/2;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding: 50px;
 }
 
