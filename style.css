@@ -80,6 +80,10 @@ a:visited, link {
     text-decoration: underline none;
 }
 
+a:hover {
+    color:maroon;
+}
+
 .skillsTableData {
     padding: 20px;
 }
