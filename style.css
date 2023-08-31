@@ -72,3 +72,8 @@ td.courseName,th {
 th {
     text-align: left;
 }
+
+a:visited {
+    text-decoration: none;
+    
+}
