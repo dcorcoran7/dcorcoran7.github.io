@@ -72,7 +72,7 @@ td.courseName {
 }
 
 td.courseNum {
-    padding-right: 10px;
+    min-width: 50px;
 }
 
 th {
