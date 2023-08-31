@@ -35,22 +35,24 @@ h2 {
     cursor: pointer;
     width: 125px;
     height: 75px;
-    border-radius: 30px;
+
     
 }
 
 .linkedIn {
     background-color: rgb(74, 153, 227); 
     color: black; 
+    border-radius: 30px;
 }
 
 .linkedIn:hover {
     background-color: #c5cfca;
-    color: white;
 }
 
 .gitHub {
     background-color: #02a46c; 
+    color: black; 
+    border-radius: 30px;
 }
 
 .gitHub:hover {
