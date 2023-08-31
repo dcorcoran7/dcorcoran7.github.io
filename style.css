@@ -17,13 +17,13 @@ p {
     width: 75px;
 }
 
-#PersonalInformation {
+.PersonalInformation {
     float:left;
     width: 50%;
     height: 100px;
 }
 
-#ExperienceInformation {
+.ExperienceInformation {
     float: right;
     width: 50%;
     height: 100px;
