@@ -6,7 +6,7 @@ body {
 .gridContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height:1000px;
+    height:100%;
 }
 
 h2 {
