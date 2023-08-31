@@ -7,7 +7,7 @@ body {
 .gridContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: calc(100% - 50px);
+    height: calc(100% - 10px);
 
 }
 
@@ -33,23 +33,22 @@ h2 {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    width: 150px:
   }
 
   .linkedIn {
-    background-color: rgb(36, 94, 149); 
+    background-color: rgb(58, 114, 165); 
     color: black; 
-    border: 2px solid rgb(36, 94, 149);
   }
   
   .linkedIn:hover {
-    background-color: #1a5bd4;
+    background-color: #0b285e;
     color: white;
   }
   
   .gitHub {
     background-color: #00ba79; 
     color: black; 
-    border: 2px solid #00ba79;
   }
   
   .gitHub:hover {
