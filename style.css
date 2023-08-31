@@ -37,23 +37,21 @@ h2 {
 }
 
 .linkedIn {
-    background-color: rgb(58, 114, 165); 
+    background-color: rgb(74, 153, 227); 
     color: black; 
 }
 
 .linkedIn:hover {
-    background-color: #0b285e;
+    background-color: #c5cfca;
     color: white;
 }
 
 .gitHub {
-    background-color: #00ba79; 
-    color: black; 
+    background-color: #02a46c; 
 }
 
 .gitHub:hover {
-    background-color: #0c5a30;
-    color: white;
+    background-color: #c5cfca;
 }
 
 .experienceInformation {
