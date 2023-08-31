@@ -34,27 +34,27 @@ h2 {
     transition-duration: 0.4s;
     cursor: pointer;
     width: 150px;
-  }
+}
 
-  .linkedIn {
+.linkedIn {
     background-color: rgb(58, 114, 165); 
     color: black; 
-  }
-  
-  .linkedIn:hover {
+}
+
+.linkedIn:hover {
     background-color: #0b285e;
     color: white;
-  }
-  
-  .gitHub {
+}
+
+.gitHub {
     background-color: #00ba79; 
     color: black; 
-  }
-  
-  .gitHub:hover {
+}
+
+.gitHub:hover {
     background-color: #0c5a30;
     color: white;
-  }
+}
 
 .experienceInformation {
     grid-column: 2/3;
