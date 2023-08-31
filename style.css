@@ -53,8 +53,8 @@ h2 {
 .gitHub {
     background-color: #02a46c; 
     color: black; 
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .gitHub:hover {
