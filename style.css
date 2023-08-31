@@ -4,7 +4,7 @@ body {
 
 div {
     border: 2px;
-    border-color: black;
+    border-color: black;;
     }
 
 h2 {
@@ -14,15 +14,18 @@ h2 {
 
 p { 
     color: gray;
-    width: 75px:
+    width: 75px;
 }
 
 #PersonalInformation {
     float:left;
     width: 50%;
+    height: 100px;
 }
 
 #ExperienceInformation {
     float: right;
     width: 50%;
+    height: 100px;
+    overflow:auto;
 }
