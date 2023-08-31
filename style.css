@@ -77,8 +77,8 @@ th {
     text-align: left;
 }
 
-a:visited {
-    color: black;
+a:visited, link {
+    color: rgb(105, 102, 102);
     text-decoration: underline none;
 }
 
