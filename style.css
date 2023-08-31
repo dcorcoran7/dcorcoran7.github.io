@@ -30,6 +30,7 @@ h2 {
     margin-right: auto;
     border: dotted black;
     align-items: center;
+    width:fit-content;
 }
 
 .button {
