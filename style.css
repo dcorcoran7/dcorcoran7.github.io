@@ -18,10 +18,12 @@ p {
 }
 
 .PersonalInformation {
+    grid-column: 1/2;
     border-style: dotted;
 }
 
 .ExperienceInformation {
+    grid-column: 2/3;
     overflow: auto;
     border-style: dotted;
 }
