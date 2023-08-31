@@ -17,10 +17,10 @@ p {
 }
 
 .PersonalInformation {
-    border-style: solid;
+    border-style: dotte;
 }
 
 .ExperienceInformation {
     overflow: auto;
-    border-style: solid;
+    border-style: dotted;
 }
