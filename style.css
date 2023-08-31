@@ -84,6 +84,10 @@ a:hover {
     color:maroon;
 }
 
+a {
+    text-decoration: none;
+}
+
 .skillsTableData {
     padding: 20px;
 }
