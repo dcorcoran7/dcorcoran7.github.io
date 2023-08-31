@@ -18,7 +18,10 @@ h2 {
 .personalInformation {
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px; 
+    padding-left: 50px ;
+    padding-right: 50px ;
     border-right-style: dotted;
 }
 
@@ -64,7 +67,10 @@ h2 {
     grid-row: 1/2;
     overflow-x: hidden;
     overflow-y: auto;
-    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px; 
+    padding-left: 50px ;
+    padding-right: 50px ;
 }
 
 td.courseName {
