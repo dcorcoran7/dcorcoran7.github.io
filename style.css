@@ -2,7 +2,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-section {
+div {
     border: 2px;
     border-color: black;
     }
@@ -14,4 +14,14 @@ h2 {
 
 p { 
     color: gray;
+}
+
+#PersonalInformation {
+    float:left;
+    width: 50%;
+}
+
+#ExperienceInformation {
+    float: right;
+    width: 50%;
 }
