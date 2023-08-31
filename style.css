@@ -30,6 +30,10 @@ h2 {
     border-style: dotted;
 }
 
+td.courseName {
+    padding: 5px;
+}
+
 th {
     text-align: left;
 }
