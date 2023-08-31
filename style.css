@@ -31,7 +31,7 @@ h2 {
     padding: 50px;
 }
 
-td.courseName {
+td.courseName,th {
     padding: 5px;
 }
 
