@@ -37,6 +37,7 @@ h2 {
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
     font-size: 20px;
     margin: 4px 2px;
     transition-duration: 0.4s;
@@ -46,7 +47,6 @@ h2 {
     background-color: #c5cfca; 
     color: black; 
     border-radius: 5px;
-    float: left;
 }
 
 .button:hover {
