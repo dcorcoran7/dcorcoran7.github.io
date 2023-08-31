@@ -1,5 +1,6 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
 }
 
 .gridContainer {
@@ -13,14 +14,11 @@ h2 {
     font-weight: bold;
 }
 
-p { 
-    color: gray;
-}
-
 .personalInformation {
     grid-column: 1/2;
     grid-row: 1/2;
     border-style: dotted;
+    padding-left: 50px;
 }
 
 .experienceInformation {
@@ -28,4 +26,5 @@ p {
     grid-row: 1/2;
     overflow: auto;
     border-style: dotted;
+    padding-left: 20px;
 }
