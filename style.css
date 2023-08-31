@@ -86,6 +86,7 @@ a:visited, link {
 
 a:hover {
     color:maroon;
+    font-weight: bold;
 }
 
 a {
