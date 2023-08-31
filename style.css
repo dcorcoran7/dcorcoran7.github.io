@@ -80,6 +80,11 @@ a:visited, link {
     text-decoration: underline none;
 }
 
-.skillsTable {
+.skillsTableData {
     padding: 20px;
+}
+
+.skillsTable {
+    margin-left: auto;
+    margin-right: auto;
 }
