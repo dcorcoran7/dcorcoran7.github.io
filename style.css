@@ -2,12 +2,12 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(105, 102, 102);
     height: 95vh;
-    overflow: hidden;
 }
 
 .gridContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: calc(100% - 10px);
 
 }
 
