@@ -107,5 +107,6 @@ a {
 }
 
 section {
-    border-bottom: dotted;
+    border-bottom: dotted black;
+    color: orange;
 }
