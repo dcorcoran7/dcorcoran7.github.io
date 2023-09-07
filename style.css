@@ -108,5 +108,5 @@ a {
 
 section {
     border-bottom: dotted black;
-    color: orange;
+    padding-bottom: 10px;
 }
