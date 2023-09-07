@@ -85,6 +85,11 @@ a:visited, link {
     text-decoration: underline none;
 }
 
+a {
+    color: rgb(105, 102, 102);
+    text-decoration: underline none;
+}
+
 a:hover {
     color:maroon;
     font-weight: bold;
