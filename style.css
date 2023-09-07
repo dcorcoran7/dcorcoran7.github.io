@@ -16,6 +16,10 @@ h2 {
     font-weight: bold;
 }
 
+h4 {
+    display:inline-block;
+}
+
 .personalInformation {
     grid-column: 1/2;
     grid-row: 1/2;
