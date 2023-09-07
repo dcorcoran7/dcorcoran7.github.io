@@ -114,3 +114,7 @@ a {
 #content {
     border-bottom: dotted black;
 }
+
+.jobTitle {
+    font-style: italic;
+}
