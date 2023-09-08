@@ -16,6 +16,11 @@ h2 {
     font-weight: bold;
 }
 
+.job {
+    height: 3vh;
+    border: solid;
+}
+
 .jobLength {
     float: right;
     border: dotted;
@@ -24,7 +29,6 @@ h2 {
 .jobTitle {
     float: left;
     font-style: italic;
-    border: solid black;
 }
 
 .personalInformation {
