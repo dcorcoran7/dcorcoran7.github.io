@@ -18,11 +18,13 @@ h2 {
 
 .jobLength {
     float: right;
+    border: dotted;
 }
 
 .jobTitle {
     float: left;
     font-style: italic;
+    border: dotted;
 }
 
 .personalInformation {
