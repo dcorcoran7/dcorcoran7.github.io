@@ -24,7 +24,7 @@ h2 {
 .jobTitle {
     float: left;
     font-style: italic;
-    border: dotted;
+    border: solid black;
 }
 
 .personalInformation {
