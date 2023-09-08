@@ -1,16 +1,14 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(105, 102, 102);
-    height: 97vh;
-    margin: 0;
 }
 
 
 .gridContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: calc(100% - 10px);
-
+    height: 95vh;
+    overflow: hidden;
 }
 
 
@@ -27,9 +25,6 @@ h2 {
     padding-left: 50px;
     padding-right: 50px;
     border-right-style: dotted;
-    overflow: hidden;
-    height: 95vh;
-    width:50%;
 }
 
 .buttonDiv {
@@ -73,8 +68,7 @@ h2 {
     padding-bottom: 50px; 
     padding-left: 50px;
     padding-right: 50px;
-    height: 95vh;
-    width:50%;
+
 }
 
 td.courseName {
