@@ -29,6 +29,7 @@ h2 {
     border-right-style: dotted;
     overflow: hidden;
     height: 95vh;
+    width:50%;
 }
 
 .buttonDiv {
