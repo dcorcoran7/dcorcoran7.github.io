@@ -16,6 +16,15 @@ h2 {
     font-weight: bold;
 }
 
+.jobLength {
+    float: right;
+}
+
+.jobTitle {
+    float: left;
+    font-style: italic;
+}
+
 .personalInformation {
     grid-column: 1/2;
     grid-row: 1/2;
