@@ -37,8 +37,6 @@ h2 {
     padding-left: 30px;
     padding-right: 30px;
     border-right-style: dotted;
-    float: left;
-    position: fixed;
 }
 
 .buttonDiv {
@@ -73,15 +71,15 @@ h2 {
 
 
 .experienceInformation {
-
+    grid-column: 2/3;
+    grid-row: 1/2;
     overflow-x: hidden;
     overflow-y: auto;
     padding-top: 25px;
     padding-bottom: 40px; 
     padding-left: 30px;
     padding-right: 30px;
-    float: right;
-    position: fixed;
+
 }
 
 td.courseName {
