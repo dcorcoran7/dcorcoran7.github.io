@@ -8,7 +8,7 @@ body {
     /*display: grid;
     grid-template-columns: 1fr 1fr;*/
     height: 97vh;
-    overflow: hidden;
+    width: 860px;
 }
 
 
@@ -37,8 +37,9 @@ h2 {
     padding-left: 30px;
     padding-right: 30px;
     border-right-style: dotted;
-    width: 260px;
+    width: 300px;
     float: left;
+    position: fixed
 }
 
 .buttonDiv {
@@ -81,7 +82,7 @@ h2 {
     padding-bottom: 40px; 
     padding-left: 30px;
     padding-right: 30px;
-    width: auto;
+    width: 500px;
     float: right;
 }
 
