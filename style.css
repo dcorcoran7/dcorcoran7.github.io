@@ -3,7 +3,7 @@ body {
     color: rgb(105, 102, 102);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
     .gridContainer {
     display: grid;
     grid-template-rows: 0.75fr 1fr;
