@@ -38,9 +38,8 @@ h2 {
     padding-right: 30px;
     border-right-style: dotted;
     width: 300px;
-    float: left;
     position: fixed;
-    display:inline-block:
+    display:inline-block;
 }
 
 .buttonDiv {
