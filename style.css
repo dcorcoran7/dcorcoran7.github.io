@@ -31,7 +31,7 @@ body {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1301px) {
     .gridContainer {
     display: grid;
     grid-template-columns: 0.75fr 1fr;
