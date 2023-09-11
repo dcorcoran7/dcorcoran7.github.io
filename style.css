@@ -34,7 +34,7 @@ body {
 @media screen and (min-width: 600px) {
     .gridContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.75fr 1fr;
     height: 97vh;
     }
 
