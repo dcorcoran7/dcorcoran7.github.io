@@ -6,7 +6,7 @@ body {
 @media screen and (max-width: 1300px) {
     .gridContainer {
     display: grid;
-    grid-template-rows: 0.25fr 1fr;
+    grid-template-rows: auto auto;
     }
 
     .personalInformation {
