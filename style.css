@@ -30,6 +30,10 @@ body {
         padding-right: 30px;
         background-color:beige;
     }
+
+    .job, td {
+        font-size: medium;
+    }
 }
 
 @media screen and (min-width: 1301px) {
