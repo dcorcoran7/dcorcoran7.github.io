@@ -30,7 +30,7 @@ body {
     }
 
     .job, td, th {
-        font-size: medium;
+        font-size: larger;
     }
 }
 
