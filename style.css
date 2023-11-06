@@ -68,6 +68,11 @@ h2 {
     font-weight: bold;
 }
 
+summary {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .job {
     height: 2vh;
 }
