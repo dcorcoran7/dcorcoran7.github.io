@@ -9,6 +9,7 @@ body {
 #buttonDiv {
   text-align: center;
   min-width: fit-content;
+  border: black;
 }
 
 .button {
