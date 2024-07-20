@@ -6,6 +6,11 @@ body {
   font-weight:400;
 }
 
+#buttonDiv {
+  text-align: center;
+  min-width: fit-content;
+}
+
 .button {
   border: none;
   padding: 10px;
