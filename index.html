@@ -1,450 +1,207 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
-    <head>
-        <title>
-            David Corcoran
-        </title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Minimal by Steve Smith</title>
 
-        <link rel="stylesheet"  type="text/css" href="./style.css">
-    </head>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Minimal</h1>
+        <p>A Theme for GitHub Pages</p>
+        <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
+        <ul>
+          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>GitHub Flavored Markdown</h1>
 
-    <body>
+        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
 
-    <div class = "gridContainer">
+        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
 
-        <div class = "personalInformation">
-            <h1 style ="text-align: center;">
-                DAVID CORCORAN
-            </h1></br>
+        <p>Roses are red<br>
+        Violets are blue</p>
 
-            <div class = "buttonDiv">
-                <button class = "button resume" onclick = "window.location.href='Resume.pdf';">Resume</button>
-                <button class = "button linkedIn" onclick = "window.location.href='https://www.linkedin.com/in/david-corcoran-70677917a/';">LinkedIn</button>
-                <button class = "button gitHub" onclick = "window.location.href='https://github.com/dcorcoran7';">GitHub</button>
-                <button class = "button kpmg" onclick = "window.location.href='https://www.kpmg.us/index.html';">KPMG</button>
-                <button class = "button VT" onclick = "window.location.href='https://www.vt.edu/';">VT</button>
-            </div>
+        <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
 
-            <section class = "About">
-                <h2>
-                    About
-                </h2>
+        <p>Roses are red<br><br>
+        Violets are blue</p>
 
-                <p style = "font-size: 15px;">
-                    I graduated from Virginia Tech's Pamplin College of Business in May 2022 with two degrees 
-                    in Business Information Technology and Finance, and a minor in Economics. I've been working 
-                    in McLean, VA as a Federal Technology Risk Management Associate at KPMG for 1.5 years right 
-                    after graduation.
-                </p>
+        <p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
 
-                <p style = "font-size: 15px;"></p>
-                    Through academic coursework and personal projects, I've gained experience in many programming 
-                    languages, including:
-                </p>
+        <h2>A bit of the GitHub spice</h2>
 
-                <table class = "skillsTable">
-                    <tr>
-                        <td class = "skillsTableData">HTML</td>
-                        <td class = "skillsTableData">CSS</td>
-                        <td class = "skillsTableData">PHP</td>
-                        <td class = "skillsTableData">JavaScript</td>
-                    </tr>
-                    <tr>
-                        <td class = "skillsTableData">Python</td>
-                        <td class = "skillsTableData">VBA</td>
-                        <td class = "skillsTableData">VB.NET</td>
-                        <td class = "skillsTableData">Selenium</td>
-                    </tr>
-                </table>
+        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
 
-                <p style = "font-size: 15px;"></p>
-                    As well as finance related skills, such as:              
-                </p>
+        <ul>
+          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
+          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
+          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
+          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
+          <li>User/#Num: mojombo#1</li>
+          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
+        </ul>
 
-                <table class = "skillsTable">
-                    <tr>
-                        <td class = "skillsTableData">Financial Modeling</td>
-                        <td class = "skillsTableData">Options Pricing/Strategy</td>
-                        <td class = "skillsTableData">TVM</td>
-                        <td class = "skillsTableData">Stock & Bond Valuation</td>
-                    </tr>
-                    <tr>
-                        <td class = "skillsTableData">Fixed-Income Securities</td>
-                        <td class = "skillsTableData">Equity Securities</td>
-                        <td class = "skillsTableData">FX Markets</td>
-                        <td class = "skillsTableData">Risk & Return</td>
-                    </tr>
-                </table>
+        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
 
-                <h2>Program Links</h2>
-                <ul>
-                    <li style = "font-size: 15px; font-weight: bold;"><a href="https://bit.vt.edu/academics/undergraduate-programs/decision-support-systems.html">Business Information Technology - Decision Support Systems (DSS)</a></li></br>
-                    <li style = "font-size: 15px; font-weight: bold;"><a href="https://finance.pamplin.vt.edu/undergraduate/options/finance-major-options/cfa.html">Finance - Investment Management and Chartered Financial Analyst (FCFA)</a></li></br>
-                    <li style = "font-size: 15px; font-weight: bold;"><a href="https://econ.vt.edu/undergraduate/economicsminors.html">Economics Minor</a></li>
-                </ul>
+        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
 
-            </section>
+        <h2>Math is hard, let's go shopping</h2>
 
-        </div>
+        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
 
+        <p>Triangles man! a^2 + b^2 = c^2</p>
 
-        <div class = "experienceInformation">
-            
-            <section class = "workExperience" id ="content">
-                <summary>Work Experience</summary>
+        <h2>We all like making lists</h2>
 
-                <h3>KPMG </h3>
+        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
 
-                <div class="job">
-                    <div class="jobTitle">Federal Technology Risk Management Associate</div>
-                    <div class="jobLength">July 2022 - Present</div>
-                </div>
-                <p>1st Engagement: As a TRM associate, I was 
-                    responsible for researching the current-state of the DoD federal agency I was under 
-                    contract for, and solving issues regarding segregation of duties (SoD). This resulted 
-                    in me supporting the creation of an SoD governance document that was accepted by the agency.
-                </p>
+        <ul>
+          <li>Red Apples</li>
+          <li>Purple Grapes</li>
+          <li>Green Kiwifruits</li>
+        </ul>
 
-                <p>2nd Engagement: I am currently responsible for supporting a DoD federal agency with 
-                    their IT audit-readiness goals for fiscal year 2023. While physically visiting clients sites 
-                    across the US, I walkthrough and test the entirety of each site's SAP IT system controls for inter-site 
-                    discrepancies, system errors, or internal control gaps.</p>
+        <p>Let's get crazy:</p>
 
-                <p>Miscellaneous:</p>
-                <ul>
-                    <li>Living Green and API Business Resource Groups</li>
-                    <li>KPMG Culture Catalyst</li>
-                    <li>KPMG Health Equity Hackathon - 3rd Place </li>
-                </ul>
+        <ol>
+          <li>
+            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
+            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
+            mi posuere lectus.</p>
 
-                <h3>TIC </h3>
+            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
+            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
+            sit amet velit.</p>
+          </li>
+          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
+        </ol>
 
-                <div class="job">
-                    <div class="jobTitle">Python Programming Counseler</div>
-                    <div class="jobLength">June 2021 - August 2021</div>
-                </div>
-                <p>As a programming counselor, I was responsible for instructing campers
-                    aged 6-11 in Scratch, and campers aged 12-18 in Python. I used the built-in 
-                    python platform within Processing 3 to teach middle and high school students 
-                    the basics of programming (variables, syntax, for loops, while loops, functions, 
-                    classes) so that they could ultimately build their own game by the end of 
-                    each two week camp session.
-                </p><br>
-            </section>
-            
+        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
 
-            <section class = "academicCoursework" id ="content">
-                <details>
-                    <summary>Academic Coursework</summary>
-                
-                    <h3>
-                        <a href="https://catalog.vt.edu/undergraduate/pamplin-college-business/">Pamplin Foundation:</a>
-                    </h3>
+        <ol>
+          <li>
+            <p>In Ruby you can map like this:</p>
 
-                    <table class = "pamplinTable">
-                        <tr>
-                            <th>Course #</th>
-                            <th>Course Name</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">MGT 1104</td>
-                            <td class = "courseName">Foundations of Business</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">MATH 1524</td>
-                            <td class = "courseName">Business Calculus</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">HTM 2314</td>
-                            <td class = "courseName">International Business</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 2405</td>
-                            <td class = "courseName">Business Statistics, Analytics, & Modeling I</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 2406</td>
-                            <td class = "courseName">Business Statistics, Analytics, & Modeling II</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">MKTG 3104</td>
-                            <td class = "courseName">Marketing Management</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ACIS 2116</td>
-                            <td class = "courseName">Principles of Accounting I</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ACIS 2115</td>
-                            <td class = "courseName">Principles of Accounting II</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">MGT 3404</td>
-                            <td class = "courseName">Principles of Management</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 3414</td>
-                            <td class = "courseName">Operations and Supply Chain Management</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">FIN 3104</td>
-                            <td class = "courseName">Introduction to Finance</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">FIN 3054</td>
-                            <td class = "courseName">Legal and Ethical Environments in Business</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">MGT 4394</td>
-                            <td class = "courseName">Strategic Management</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 4484</td>
-                            <td class = "courseName">Project Management</td>
-                        </tr>
-                    </table>
+            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
+          </li>
+          <li>
+            <p>In Rails, you can do a shortcut:</p>
 
+            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
+          </li>
+        </ol>
 
-                    <h3>
-                        <a href="https://catalog.vt.edu/undergraduate/pamplin-college-business/business-information-technology/business-information-technology-bs-computer-based-decision-support-systems/">BIT - Decision Support Systems:</a>
-                    </h3>
+        <p>Some people seem to like definition lists</p>
 
-                    <table class = "bitTable">
-                        <tr>
-                            <th>Course #</th>
-                            <th>Course Name</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">CS 1054</th>
-                            <td class = "courseName">Introduction to Programming in Python</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 3514</td>
-                            <td class = "courseName">Systems Analysis</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ACIS 1504</td>
-                            <td class = "courseName">Introduction to Business Analytics and Business Intelligence</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 3424</td>
-                            <td class = "courseName">Introduction to Business Analytics Modeling</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 3434</td>
-                            <td class = "courseName">Advanced Modeling for Business Analytics</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 3444</td>
-                            <td class = "courseName">Advanced Business Computing and Applications</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 4444</td>
-                            <td class = "courseName">Web-Based Decision Support Systems</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 3524</td>
-                            <td class = "courseName">Database Management and Design</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 3554</td>
-                            <td class = "courseName">Networks, Telecommunications, and Security</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 4454</td>
-                            <td class = "courseName">Business Analysis Seminar in IT</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">BIT 4434</td>
-                            <td class = "courseName">Computer Simulation in Business</td>
-                        </tr>
-                    </table>
+        <dl>
+          <dt>Lower cost</dt>
+          <dd>The new version of this product costs significantly less than the previous one!</dd>
+          <dt>Easier to use</dt>
+          <dd>We've changed the product so that it's much easier to use!</dd>
+        </dl>
 
+        <h2>I am a robot</h2>
 
-                    <h3>
-                        <a href="https://catalog.vt.edu/undergraduate/pamplin-college-business/finance-insurance-business-law/finance-bs-investment-management-chartered-financial-analyst/">Finance - Investment Management:  </a>              
-                    </h3>
+        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
 
-                    <table class = "financeTable">
-                        <tr>
-                            <th>Course #</th>
-                            <th>Course Name</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">FIN 3134</th>
-                            <td class = "courseName">Financial Analytics</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">FIN 3144</th>
-                            <td class = "courseName">Investments: Debt, Equity, and Derivatives</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">FIN 3154</th>
-                            <td class = "courseName">Corporate Finance</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ACIS 4194</td>
-                            <td class = "courseName">Analysis of Financial Statments</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">FIN 4274</td>
-                            <td class = "courseName">Equity Securities: Analysis and Management</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">FIN 4214</td>
-                            <td class = "courseName">Financial Modeling in Excel</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">FIN 4144</td>
-                            <td class = "courseName">International Financial Management</td>
-                        </tr>
-                    </table>
+        <pre><code>def robot_invasion
+  puts("robot " * 1000)
+end
+</code></pre>
 
+        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
 
-                    <h3>
-                        <a href="https://catalog.vt.edu/undergraduate/college-science/economics/#text">Economics:</a>                
-                    </h3>
+        <p>How about we throw some angle braces and ampersands in there?</p>
 
-                    <table class = "economicsTable">
-                        <tr>
-                            <th>Course #</th>
-                            <th>Course Name</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ECON 2005</th>
-                            <td class = "courseName">Microeconomic Principles</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ECON 2006</th>
-                            <td class = "courseName">Macroeconomic Principles</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ECON 3104</th>
-                            <td class = "courseName">Microeconomic Theory</th>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ECON 3204</td>
-                            <td class = "courseName">Macroeconomic Theory</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ECON 3214</td>
-                            <td class = "courseName">Money and Banking</td>
-                        </tr>
-                        <tr>
-                            <td class = "courseNum">ECON 4084</td>
-                            <td class = "courseName">Industry Structure</td>
-                        </tr>
-                    </table><br>
-                </details>
-            </section>
+        <pre><code>&lt;div class="footer"&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre>
 
-            <section class = "academicProjects" id ="content">
-                <details>
-                    <summary>Academic Projects</summary>             
+        <h2>Set in stone</h2>
 
-                    <h3>
-                        <a href="">SMU Requirements Analyst:</a> 
-                    </h3>
-                    <p>Languages: Selenium</p>
-                    <p>As a requirements analyst in the creation of a course management program,
-                        I was responsible for documenting what fields appear on each webpage,
-                        their validation rules, access rules, and how the user would interact
-                        with each page. When the webpage was created by the developer,
-                            I used Selenium to ensure each webpage was functioning properly
-                            based on the requirements I previously made. This project used
-                            the agile method, involving 4 sprints throughout the semester.</p>
-                    <p>Course: BIT 4454 - Business Analysis Seminar in IT</p>
+        <p>Preformatted blocks are useful for ASCII art:</p>
 
-                    <h3>
-                        <a href="https://github.com/dcorcoran7/HokieEatsWebpages">"HokieEats" Food Delivery Service:</a> 
-                    </h3>
-                    <p>Languages: HTML, CSS, JavaScript, PHP, Bootstrap, J3.DS, Ajax</p>
-                    <p>I was tasked with creating a database-driven “review management” module for
-                        a fictional food delivery service website and integrating it with other team
-                        member’s sections of the project. I created 9 webpages using HTML, CSS, PHP,
-                        MySQL, D3.js, Ajax, JavaScript, and Bootstrap, all focused on user review
-                            creation, modification, and analysis.</p>
-                    <p>Course: BIT 4444 - Web-Based Decision Support Systems</p>
+        <pre>             ,-.
+    ,     ,-.   ,-.
+   / \   (   )-(   )
+   \ |  ,.&gt;-(   )-&lt;
+    \|,' (   )-(   )
+     Y ___`-'   `-'
+     |/__/   `-'
+     |
+     |
+     |    -hrr-
+  ___|_____________
+</pre>
 
-                    <h3>
-                        <a href="https://github.com/dcorcoran7/WorkplaceOptimization">Office Workplace Optimization:</a> 
-                    </h3>
-                    <p>Languages: VB.NET</p>
-                    <p>This is an optimization program in VB.NET, an object-oriented coding language,
-                        using Visual Studio 2019. This program optimizes the selection of employees 
-                        within accounts based on wage, job position, and weekly hour constraints, all
-                        displayed on an accessible graphical user interface.</p>
-                    <p>Course: BIT 3444 - Advanced Business Computing and Applications</p>
+        <h2>Playing the blame game</h2>
 
-                    <h3>
-                        <a href="https://github.com/dcorcoran7/NetworkPaths">Network Paths:</a> 
-                    </h3>
-                    <p>Languages: VB.NET</p>
-                    <p>A user must choose start and destination cities, along with a maximum travel radius  
-                        to calculate the shortest possible route between those chosen locations. The travel  
-                        radius dropdown is capped at 1500 miles, and is used in case the user wants to limit 
-                        the maximum amount of miles traveled for each flight. The final results appear separately 
-                        and display all cities in the route, total distance traveled, and cost.
-                    </p>
-                    <p>Course: BIT 3444 - Advanced Business Computing and Applications</p>
+        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
 
-                    <h3>
-                        <a href="https://github.com/dcorcoran7/AirportFlights">Airport Solver Flights:</a> 
-                    </h3>
-                    <p>Languages: VB.NET</p>
-                    <p>This program calculates every possible shortest path between all airports designated in 
-                        the program files. All the user must do is select a maximum travel radius, which would limit 
-                        how far each flight can be. The shorter the radius, the more arcs and nodes will be generated. 
-                        Once the program is run, the GUI displays all airports, as well as a dropdown of all other 
-                        airports in the system. When the destination airport is clicked, the shortest path  
-                        (layovers if necessary), capacity, and cost are revealed in a textbox below.
-                    </p>
-                    <p>Course: BIT 3444 - Advanced Business Computing and Applications</p><br>
+        <blockquote>
+        <p>I, at any rate, am convinced that He does not throw dice.</p>
+        </blockquote>
 
+        <p>Or perhaps someone a little less eloquent:</p>
 
-                </details>  
-            </section>
+        <blockquote>
+        <p>I wish you'd have given me this written question ahead of time so I<br>
+        could plan for it... I'm sure something will pop into my head here in<br>
+        the midst of this press conference, with all the pressure of trying to<br>
+        come up with answer, but it hadn't yet...</p>
 
-            <section id ="content">
-                <details>
-                    <summary>Personal Projects</summary>
+        <p>I don't want to sound like<br>
+        I have made no mistakes. I'm confident I have. I just haven't - you<br>
+        just put me under the spot here, and maybe I'm not as quick on my feet<br>
+        as I should be in coming up with one.</p>
+        </blockquote>
 
-                    <h3>
-                        <a href="https://github.com/dcorcoran7/SpotifyTopTracks">Spotify Top Tracks API:</a> 
-                    </h3>
-                    <p>Languages: Python</p>
-                    <p>Utilizing Spotipy and Spotify's API to retrieve song/artist data from an inputted 
-                        Spotify account, this python program returns the selected user's top 25 tracks and 
-                        artists within 3 different time periods: 4 weeks, 6 months, and all-time. Users 
-                        must create an account on Spotify for Developers to obtain an API key.</p>
+        <h2>Table for two</h2>
 
-                    <h3>
-                        <a href="https://github.com/dcorcoran7/SoccerLeagueStandingsAPI">Soccer League Data:</a> 
-                    </h3>
-                    <p>Languages: Python</p>
-                    <p>A program that accesses football-data.org's soccer API to retrieve the current standings of Europe's top 5 
-                        soccer leagues. It will prompt the user to select which league they want to view, and has validation rules 
-                        for inputs outside of the given league list. Once a list is chosen, the program accesses the API to display 
-                        that league's current standings and offers an additional lookup.
-                    </p>
+        <table>
+          <tbody>
+        <tr>
+            <th>ID</th>
+        <th>Name</th>
+        <th>Rank</th>
+          </tr>
+          <tr>
+            <td>1</td>
+        <td>Tom Preston-Werner</td>
+        <td>Awesome</td>
+          </tr>
+          <tr>
+            <td>2</td>
+        <td>Albert Einstein</td>
+        <td>Nearly as awesome</td>
+          </tr>
+        </tbody>
+        </table>
 
-                    <h3>
-                        <a href="https://github.com/dcorcoran7/PythonPractice/blob/main/ConnectFour.py">Connect Four:</a> 
-                    </h3>
-                    <p>Languages: Python</p>
-                    <p>A text-based Connect Four Program that prompts the user to input which row they would 
-                        like to drop their "X" in. The computer will then make  its move. The cycle repeats until either 
-                        the user or the computer get four of their symbols adjacent to each other. The program contains validation 
-                        rules for an out-of-range column input or an invalid column selected due to it being completely filled.
-                    </p>
-                </details>
-            </section>
-        </div>
+        <h2>Crazy linking action</h2>
+
+        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
+        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-
-        
-
-    
-    </body>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
 </html>
