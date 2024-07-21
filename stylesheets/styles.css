@@ -12,9 +12,10 @@ body {
   margin-right: auto;
   align-items: center;
   min-width: 300;
+  width: fit-content;
 }
 
-.btns {
+.button {
   border: none;
   padding: 10px;
   text-align: center;
